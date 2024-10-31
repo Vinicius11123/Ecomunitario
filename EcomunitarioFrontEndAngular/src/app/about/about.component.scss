@@ -1,0 +1,76 @@
+@font-face {
+  font-family: Sevastopol Interface;
+  src: url("../../../public/Sevastopol-Interface.ttf") format("truetype");
+}
+
+.mat-toolbar.mat-primary {
+  background: #000000;
+  color: #fff;
+  height: 6%;
+  background-color:transparent;
+  backdrop-filter: blur(10px);
+  font-family: Sevastopol Interface;
+  font-size: 300%;
+  position: fixed;
+}
+.centro {
+  margin: 0 auto;
+  color: white;
+}
+.background {
+  background: url(
+    'https://i.imgur.com/jHWK5vE.gif');
+  width: 100%;
+  height: 50%;
+  background-repeat: repeat-y;
+  background-size: cover;
+  background-position: center center;
+
+  box-shadow: inset 0px 0px 10px 10px #000;
+
+}
+.stretch{
+
+  width: 60%;
+  height: 20%;
+  object-fit: cover;
+
+}
+body { background-color: red !important; }
+
+.example-card {
+  margin: 0 auto;
+  display: flex;
+  width: 50%;
+  border-radius: 0px;
+  background-color: #343841;
+  color: #e5e7eb;
+  z-index: 1;
+}
+.example-card2{
+  color:#e5e7eb;
+  display: flex;
+  font-size: 110%;
+  background-color: #b13028;
+}
+.example-card3{
+  color:#e5e7eb;
+  font-display: ce;
+}
+
+//<mat-card-title>Shiba Inu</mat-card-title>
+.centrao{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+img{
+  width: 50%;
+  height: 50%;
+}
+.container{
+  z-index: 7;
+}

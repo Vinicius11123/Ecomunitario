@@ -1,0 +1,33 @@
+@font-face {
+  font-family: Sevastopol Interface;
+  src: url("../../../public/Sevastopol-Interface.ttf") format("truetype");
+}
+
+.footer {
+
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:transparent;
+  background: #000000;
+  color: white;
+  text-align: center;
+  backdrop-filter: blur(10px);
+  font-family: Sevastopol Interface;
+  font-size: 150%;
+}
+
+.mat-toolbar.mat-primary {
+  background: #000000;
+  color: #fff;
+  height: 100%;
+  background-color:transparent;
+  backdrop-filter: blur(10px);
+  font-family: Sevastopol Interface;
+  font-size: 200%;
+
+}
+.centro {
+  margin: 0 auto;
+  color: white;
+}

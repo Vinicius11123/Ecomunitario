@@ -1,0 +1,10 @@
+<div class="container">
+  <mat-toolbar color="primary">
+    <span class="centro"><a routerLink="">Artemis</a></span>
+    <span class="centro"><a [routerLink]="['/login']">>Login</a> / <a [routerLink]="['/register']">>Register</a></span>
+    <span class="centro" *ngIf="isAuthenticated;" ><a [routerLink]="['/check']">>Check</a> <a [routerLink]="['/api']">>Api</a></span>
+
+
+
+  </mat-toolbar>
+</div>

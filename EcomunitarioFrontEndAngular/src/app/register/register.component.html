@@ -1,0 +1,23 @@
+<app-header></app-header>
+
+<div fxLayoutAlign="center center" fxFlexFill>
+  <mat-card fxFlex="25">
+    <mat-toolbar color="primary">Register Page</mat-toolbar>
+    <form fxLayoutAlign = "stretch" fxLayout="column">
+      <mat-form-field>
+        <input matInput placeholder="Nome" [(ngModel)]="Nome" name="Nome">
+      </mat-form-field>
+      <mat-form-field>
+        <input matInput placeholder="CPF" [(ngModel)]="CPF" name="CPF" appCpfFormat>
+      </mat-form-field>
+      <mat-form-field>
+        <input matInput placeholder="Email" [(ngModel)]="Email" name="-mail">
+      </mat-form-field>
+      <mat-form-field>
+        <input matInput placeholder="Data de Nascimento" [(ngModel)]="DatadeNascimento" name="DatadeNascimento" appDateFormat>
+      </mat-form-field>
+      <button mat-raised-button type="submit" (click)="registrar()">Register</button>
+    </form>
+  </mat-card>
+</div>
+  <app-footer></app-footer>
